@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Template</title>
+    <style>
+        img{
+            height : 100px;
+            width :150px;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h2> This Page Belongs To : @<%= data.name %> </h2>
+    <button>FOLLOW</button>
+    <button>MESSAGE</button>
+
+    <p> FOLLOWERS : <%= data.followers %>  &nbsp;&nbsp;&nbsp;FOLLOWING : <%= data.following %> </p>
+</br>
+</hr>
+     
+       <% for(let post of data.posts){ %>
+        <img src="<%= post.image %>" alt="some image" >
+        <p> LIKES : <%= post.likes %>  &nbsp;&nbsp;&nbsp; COMMENTS : <%= post.comments %> </p>
+
+      <% }  %>
+
+   
+    
+</body>
+</html>

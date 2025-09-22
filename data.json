@@ -1,0 +1,47 @@
+{
+    "cats" : {
+        "name" : "cats",
+        "followers" : 25000,
+        "following" :5 ,
+        "posts" : [
+            {
+                "image" : "https://tse1.mm.bing.net/th/id/OIP.aSMukwrEsjGt9XxJFvxdxQHaEo?pid=Api&P=0&h=180",
+                "likes" : 500,
+                "comments":500
+            },
+            {
+            "image": "https://tse3.mm.bing.net/th/id/OIP.Bc0pBu6IEyF4vYo4j-ftggHaE8?pid=Api&P=0&h=180",
+            "likes" : 400,
+            "comments" : 879
+            },
+            {
+                "image" : "https://tse4.mm.bing.net/th/id/OIP.3ciTweblmYE5ppDRL3WY-gHaEo?pid=Api&P=0&h=180",
+                "likes" : 678,
+                "comments" : 876
+            }
+        ]
+
+    },
+    "dogs" : {
+        "name" : "dogs",
+        "followers" : 5647,
+        "following" : 6758,
+        "posts": [
+            {
+                "image":"https://tse4.mm.bing.net/th/id/OIP.3J2q-ML2eSU3xPhgV4ez0AHaE8?pid=Api&P=0&h=180",
+                "likes" : 6758,
+                "comments" : 7846
+            },
+            {
+                "image" : "https://tse1.mm.bing.net/th/id/OIP.JdvV7qdxNc0oPt_bGautOwHaFi?pid=Api&P=0&h=180",
+                "likes" : 6744,
+                "comments" : 6574
+            },
+            {
+                "image" :"https://static.vecteezy.com/system/resources/previews/005/857/332/non_2x/funny-portrait-of-cute-corgi-dog-outdoors-free-photo.jpg",
+                "likes" : 6474,
+                "comments" : 6474
+            }
+        ]
+    }
+}
