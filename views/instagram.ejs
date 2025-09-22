@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Template</title>
-    <style>
-        img{
-            height : 100px;
-            width :150px;
-        }
-        body{
-            background-color: beige;
-        }
-    </style>
-</head>
+<%- include("Includes/head.ejs"); %>
 <body>
     <h2> This Page Belongs To : @<%= data.name %> </h2>
     <button>FOLLOW</button>
@@ -28,6 +13,8 @@
         <p> LIKES : <%= post.likes %>  &nbsp;&nbsp;&nbsp; COMMENTS : <%= post.comments %> </p>
 
       <% }  %>
+
+      <%- include("Includes/footer.ejs"); %>
 
    
     
